@@ -1,0 +1,13 @@
+name: GunsPlugin
+version: 1488
+main: invoke.antiautistleak.Caller
+api-version: 1.16
+commands:
+  getgun:
+    description: Gives a gun
+    usage: /<command> <id>
+    permission: gunsplugin.getgun
+permissions:
+  gunsplugin.getgun:
+    description: Allows use of the /getgun command.
+    default: op

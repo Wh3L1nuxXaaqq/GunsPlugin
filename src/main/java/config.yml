@@ -1,0 +1,37 @@
+scope-effect: SLOW
+scope-effect-multiple: 5
+
+#str
+str-razryad: "Разрядка...q"
+str-razrerror: "Оружие уже разряжено!q"
+str-needammo: "Недостаточно патронов!q"
+str-fullammo: "Магазин уже полон!q"
+str-notammo: "Нет патронов!q"
+str-reloading: "Перезарядка...q"
+str-shootnoammo: "Патроны закончились! (Shift+Q).q"
+str-razrfinish: "Оружие разряжено!q"
+str-reloadfinish: "Перезарядка завершена!q"
+gun-lore: "&7Патроны: {ammo}/{gunAmmoCount} q"
+
+#guns
+guns:
+  weapon1:
+    display-name: "&cAK-47"
+    damage-body: 2.0
+    damage-head: 3.0
+    damage-leggs: 1.0
+    range: 50
+    weight: 0 #працентики
+    cooldown: 500
+    reload-time: 1000
+    recoil-yaw-def: 2.0 #отдача по x в движении
+    recoil-pitch-def: 2.0 #отдача по y в движении
+    recoil-yaw-shift: 30.0 #прицел
+    recoil-pitch-shift: 30.0 #прицел
+    scope: true
+    gun-ammo-count: 60
+    ammo-item: STICK
+    material: WOODEN_HOE
+    shoot-sound: ENTITY_ARROW_SHOOT
+    reload-sound: BLOCK_NOTE_BLOCK_BASS
+    bullets-per-shot: 1
